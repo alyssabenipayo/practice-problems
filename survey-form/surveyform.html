@@ -1,0 +1,80 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+
+<header>
+<h1 id="title"> Hello World Survey Form
+</h1>
+  </header>
+  
+  <body>
+<p id="description">
+  <i>Hello World</i> is a program for students who are interested in pursuing a career in Technology.
+</p>
+    
+<form id="survey-form">
+  
+  <div class="input-headings">
+  
+  <label id="name-label" for="name"><b>Name</b></label></br>
+  <input id="name" type="text" placeholder="Enter_Your_Name" class="form-input" required>
+  </br>
+  </br>
+
+<label id="email-label" for="email"><b>Email</b></label></br>
+    <input id="email" type="email" placeholder="Enter Your Email" class="form-input" required>
+  </br>
+  </br>
+
+<label id="number-label" for="number"> <b>Number</b></label></br>
+    <input id="number" type="number" min=0 max=10 placeholder="Enter_A_Number" class="form-input" required>
+  </br>
+  </br>
+
+  <label id="dropdown"><b>Select Your Class Session</b></label></br>
+  <select id="dropdown" class="form-input">
+    <option value="Monday"> Monday 9:00am-5:00pm</option>
+    <option value="Wednesday"> Wednesday 9:00am-5:00pm</option>
+    <option value="Friday"> Friday 9:00am-5:00pm</option>
+          </select>
+ </br>
+ </br>
+
+<label for="location" id="location"> <b>Please select your location:</b></label>
+</br>
+<input id="location" type="radio" id="remote" name="location" value="remote">
+<label for="location">Remote</label>               
+</br>                                               
+<input id="location" type="radio" id="los_angeles" name="location" value="los_angeles">
+<label for="location">Los Angeles</label>
+</br>         
+<input id="location" type="radio" id="dallas" name="location" value="dallas">
+<label for="location">Dallas</label>
+</br>
+</br>                                               
+
+<label for="skills"> <b> What skills are you interested in learning the most? (Check all that apply)</b></label>
+</br>
+<input id="checkbox" type="checkbox" name="skills" value="frontend"> <label for="checkbox"> Front-end Development</label>
+</br>
+<input id="checkbox" type="checkbox" name="skills" value="backend"> <label for="checkbox"> Back-end Development </label>
+</br>
+<input id="checkbox" type="checkbox" name="skills" value="design"> <label for="checkbox"> Design </label>
+</br>
+<input id="checkbox" type="checkbox" name="skills" value="data_analysis"> <label for="checkbox"> Data Analysis </label>
+</br>
+</br>
+<label id="textarea"><b>Additional Comments</b></label></br>
+<textarea id="textarea" name="comments" rows="5" cols="61">
+  </textarea>
+</br>
+<button id="submit" type="submit" value="submit" class="submit-button"><b>Submit</b></button>
+
+</div>
+</form>
+
+</body>
+<!-- Can also be found on https://codepen.io/alyssabenipayo/pen/QWGdBjm -->
+
+</html>
